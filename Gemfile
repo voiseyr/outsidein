@@ -6,11 +6,11 @@ gem 'rake', '0.8.7'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3-ruby', :require => 'sqlite3'
+gem 'sqlite3-ruby', '1.2.5', :group => :development
 
 group :cucumber do
 #  gem 'capybara'
-#  gem 'database_cleaner'
+  gem 'database_cleaner'
   gem 'cucumber-rails'
   gem 'cucumber'
 #  gem 'spork'
